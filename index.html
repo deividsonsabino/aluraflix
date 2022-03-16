@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>aluraflix</title>
+</head>
+
+<body onload="didMount()">
+    <header>
+        <div class="flex responsive justify-space-between m2 align-center w-full">
+            <div class="m2">
+                <img class="logo-image" alt="logo" src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg ">
+            </div>
+            <div>
+                <div class="flex align-center mx-2 background-dark px-1 rounded-lg">
+                    <div>
+                        <p class="text-md font-bold m-0">Deividson Sabino</p>
+                        <p class="text-xs m-0">Programador Frontend</p>
+                    </div>
+
+                    <img class="profile-image rounded-lg" src="https://github.com/deividsonsabino.png " />
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="flex container">
+        <main class="background-dark w-full rounded-lg">
+            <div class="flex flex-column align-center">
+                <div class="p2">
+                    <p class="font-bold text-lg">Netflix</p>
+                    <div id="netflix" class="flex responsive">
+                    </div>
+                </div>
+                <div class="p-2">
+                    <p class="font-bold text-lg">Amazon Prime</p>
+                    <div id="amazon-prime" class="flex responsive">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="flex container p-2">
+        <p>Deividson Sabino - © 2022</p>
+    </footer>
+
+</body>
+<script src="./app.js"></script>
+
+</html>
